@@ -1,0 +1,28 @@
+<?xml version=\"1.0\" encoding=\"utf-8\"?>
+<!-- filename: byrninpikak-python.xml -->
+<component>
+	<name>org.freedesktop.IBus.Byrninpikak</name>
+	<description>Byrninpikak Input Method</description>
+	<exec>${libexecdir}/ibus-engine-byrninpikak --ibus</exec>
+	<version>@VERSION@</version>
+	<author>Harsiharsi</author>
+	<license>Apache</license>
+	<homepage>http://example.com</homepage>
+	<textdomain>ibus-byrninpikak</textdomain>
+
+	<engines>
+		<engine>
+			<name>byrninpikak-python</name>
+			<language>ja</language>
+			<license>Apache</license>
+			<author>Harsiharsi</author>
+			<icon></icon>
+            <icon_prop_key>InputMode</icon_prop_key>
+			<layout>default</layout>
+			<longname>Byrninpikak</longname>
+			<description>Byrninpikak Input Method</description>
+			<rank>0</rank>
+		</engine>
+	</engines>
+
+</component>
